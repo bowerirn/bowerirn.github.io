@@ -316,17 +316,23 @@ footer {
 
 .downloads {
   display: inline-block;
-  padding: 10px 20px; /* Adjust padding as needed for button size */
-  background-color: #0077B5; /* Button background color */
-  color: white; /* Text color */
-  text-decoration: none; /* Remove underline */
+  padding: 10px 20px;
+  background-color: #666; /* Grayscale color */
+  color: white;
+  text-decoration: none;
   border-radius: 8px; /* Rounded corners */
-  font-weight: bold; /* Bold text */
-  text-align: center; /* Center-align text */
+  font-weight: bold;
+  text-align: center;
   transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
 .downloads:hover {
-  background-color: #005582; /* Darker shade for hover */
+  background-color: #444; /* Darker grayscale on hover */
+}
+
+.profile-image {
+  transform: scale(0.5); /* Scales the image to 50% of its original size */
+  display: block; /* Ensures proper spacing and alignment */
+  margin: 0 auto 20px; /* Centers the image horizontally and adds space below */
 }
 
