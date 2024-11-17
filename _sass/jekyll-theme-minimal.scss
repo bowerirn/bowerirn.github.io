@@ -314,17 +314,19 @@ footer {
   color: black;
 }
 
-/* Downloads section styling */
-.downloads a {
+.downloads {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #0077B5;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
+  padding: 10px 20px; /* Adjust padding as needed for button size */
+  background-color: #0077B5; /* Button background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 8px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center-align text */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-.downloads a:hover {
-  background-color: #005582;
+.downloads:hover {
+  background-color: #005582; /* Darker shade for hover */
 }
+
