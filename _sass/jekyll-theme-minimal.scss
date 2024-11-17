@@ -319,7 +319,7 @@ footer {
 .downloads {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #777; /* Grayscale color */
+  background-color: #666; /* Grayscale color */
   color: white;
   text-decoration: none;
   border-radius: 8px; /* Rounded corners */
@@ -329,13 +329,13 @@ footer {
 }
 
 .downloads:hover {
-  background-color: #555; /* Darker grayscale on hover */
+  background-color: #444; /* Darker grayscale on hover */
   color: white
 }
 
-.profile-image {
-  transform: scale(0.8); /* Scales the image to 50% of its original size */
-  display: block; /* Ensures proper spacing and alignment */
-  margin: auto; /* Centers the image horizontally and adds space below */
-}
+// .profile-image {
+//   transform: scale(0.8); /* Scales the image to 50% of its original size */
+//   display: block; /* Ensures proper spacing and alignment */
+//   margin: auto; /* Centers the image horizontally and adds space below */
+// }
 
