@@ -10,9 +10,10 @@ Prior to Los Alamos, I studied computer science at Rose-Hulman Institute of Tech
 
 In my free time, I enjoy swimming, running, chess, Rubik's cubes, music, video games and entomology
 
-___
+```
 Email: [rnbowering@gmail.com](mailto:rnbowering@gmail.com)
-___
+
+```
 
 ## Research Interests
 - Efficient sequence models
