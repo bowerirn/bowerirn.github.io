@@ -1,6 +1,5 @@
 @import "fonts";
 @import "rouge-github";
-@import "style";
 
 body {
   background-color: #fff;
@@ -284,4 +283,54 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+
+
+
+.view a {
+  color: black;
+  text-decoration: none;
+}
+
+.view a:hover {
+  text-decoration: underline;
+}
+
+/* Specific icon colors */
+.view .fa-map-marker-alt {
+  color: red; /* Adjust as needed */
+}
+
+.view .fa-envelope {
+  color: black;
+}
+
+.view .fab.fa-linkedin {
+  color: #0077B5;
+}
+
+.view .fab.fa-github {
+  color: black;
+}
+
+/* Downloads section styling */
+.downloads li {
+  list-style: none;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.downloads a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077B5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.downloads a:hover {
+  background-color: #005582;
 }
