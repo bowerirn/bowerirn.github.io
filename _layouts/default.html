@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,26 +9,25 @@
 
 
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="/assets/css/style.scss">
     {% include head-custom.html %}
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
-
-        <img src="{{site.logo | relative_url}}" alt="Logo" class="profile-image"/>
+        <img src="/assets/img/logo.png" alt="Logo" class="profile-image"/>
 
         <h2>Ryan Bowering</h2>
         <p>Post-Bac @ LANL</p>
 
+        <br/>
+
         <p class="view link-text"><i class="fas fa-map-marker-alt"></i> Skokie, IL</p>
         <p class="view"><a href="mailto:rnbowering@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a></p>
         <p class="view"><a href="https://www.linkedin.com/in/rnbowering/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-        <p class="view"><a href="https://github.com/bowerirn" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+        <p class="view"><a href="https://github.com/bowerirn" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>  
+
+        <br/>
 
         <a class="downloads" href="/assets/files/Ryan Bowering Resume.pdf" target="_blank">Download Resume</a>
       </header>
